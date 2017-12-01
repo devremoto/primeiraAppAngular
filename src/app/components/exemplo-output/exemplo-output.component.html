@@ -1,0 +1,14 @@
+<div class="text-center">
+
+  <div class="col-md-2">
+    <div class="input-group">
+      <span class="input-group-btn">
+        <button class="btn btn-info " (click)="decrementa()">-</button>
+      </span>
+      <input [(ngModel)]="contador" (ngModelChange)="emiteEvento($event)" type="text" class="form-control  text-center">
+      <span class="input-group-btn">
+        <button class="btn btn-info" (click)="incrementa()">+</button>
+      </span>
+    </div>
+  </div>
+</div>

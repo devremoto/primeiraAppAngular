@@ -7,22 +7,29 @@ import { HeaderComponent } from './header/header.component';
 import { AppRoutingModule } from './app-routing.module';
 import { AboutComponent } from './about/about.component';
 import { HomeComponent } from './home/home.component';
-import { ExemploInputComponent } from './exemplo-input/exemplo-input.component';
-import { ExemploOutputComponent } from './exemplo-output/exemplo-output.component';
+
+import { ComponentsModule } from './components/components.module';
+import { DirectivesModule } from './directives/directives.module';
+import { PipesModule } from './pipes/pipes.module';
+import { ExemplosModule } from './exemplos/exemplos.module';
+
 
 @NgModule({
   declarations: [
     AppComponent,
     HeaderComponent,
     AboutComponent,
-    HomeComponent,
-    ExemploInputComponent,
-    ExemploOutputComponent,
+    HomeComponent
+
   ],
   imports: [
     BrowserModule,
+    FormsModule,
     AppRoutingModule,
-    FormsModule
+    ComponentsModule,
+    DirectivesModule,
+    PipesModule,
+    ExemplosModule
   ],
   providers: [],
   bootstrap: [AppComponent]
