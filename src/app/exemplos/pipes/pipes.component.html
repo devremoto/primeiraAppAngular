@@ -1,0 +1,40 @@
+<h1>Pipes</h1>
+<hr>
+<div class="container-fluid">
+  <h2>Exemplos - pipes</h2>
+  <table class="table">
+    <thead>
+      <tr>
+        <th>pipe</th>
+        <th>sem formatação</th>
+        <th>formato</th>
+        <th>formatado</th>
+        <th>documentação</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td>date</td>
+        <td>{{date}}</td>
+        <td>yyyy/MM/dd HH:mm:ss</td>
+        <td>{{data | date: 'yyyy/MM/dd HH:mm:ss' }}</td>
+        <td><a target="_blank" href="https://angular.io/api/common/DatePipe">https://angular.io/api/common/DatePipe</a></td>
+      </tr>
+      <tr>
+        <td>currency</td>
+        <td>{{moeda}}</td>
+        <td></td>
+        <td>{{moeda | currency}}</td>
+        <td><a target="_blank" href="https://angular.io/api/common/CurrencyPipe">https://angular.io/api/common/CurrencyPipe</a></td>
+      </tr>
+      <tr>
+          <td>currency</td>
+          <td>{{moeda}}</td>
+          <td>'BRL':'symbol':'0.1-2':'pt'</td>
+          <td>{{moeda | currency:'BRL':'symbol':'0.1-2':'pt'}}</td>
+          <td><a target="_blank" href="https://angular.io/api/common/CurrencyPipe">https://angular.io/api/common/CurrencyPipe</a></td>
+        </tr>
+    </tbody>
+  </table>
+  <hr />
+</div>

@@ -12,7 +12,9 @@ import { ComponentsModule } from './components/components.module';
 import { DirectivesModule } from './directives/directives.module';
 import { PipesModule } from './pipes/pipes.module';
 import { ExemplosModule } from './exemplos/exemplos.module';
-
+import localePt from '@angular/common/locales/pt';
+import { registerLocaleData } from '@angular/common';
+registerLocaleData(localePt);
 
 @NgModule({
   declarations: [

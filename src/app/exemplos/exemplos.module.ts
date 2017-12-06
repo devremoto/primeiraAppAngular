@@ -6,6 +6,7 @@ import { ComponentsComponent } from './components/components.component';
 import { ComponentsModule } from '../components/components.module';
 import { DirectivesComponent } from './directives/directives.component';
 import { DirectivesModule } from '../directives/directives.module';
+import { PipesComponent } from './pipes/pipes.component';
 
 @NgModule({
   imports: [
@@ -14,7 +15,7 @@ import { DirectivesModule } from '../directives/directives.module';
     ComponentsModule,
     DirectivesModule
   ],
-  declarations: [ComponentsComponent, DirectivesComponent],
+  declarations: [ComponentsComponent, DirectivesComponent, PipesComponent],
   exports: [ExemplosRoutingModule],
 })
 export class ExemplosModule { }
