@@ -23,7 +23,6 @@
     "@angular/router": "^5.0.0",
     "bootstrap": "^4.0.0-alpha.6",
     "core-js": "^2.4.1",
-    "handlebars": "^4.0.11",
     "jquery": "^3.2.1",
     "rxjs": "^5.5.2",
     "tether": "^1.4.3",
@@ -49,6 +48,7 @@
     "protractor": "~5.1.2",
     "ts-node": "~3.2.0",
     "tslint": "~5.7.0",
-    "typescript": "~2.4.2"
+    "typescript": "~2.4.2",
+    "handlebars": "4.0.11"
   }
 }
