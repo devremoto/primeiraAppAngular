@@ -7,15 +7,18 @@ import { ComponentsModule } from '../components/components.module';
 import { DirectivesComponent } from './directives/directives.component';
 import { DirectivesModule } from '../directives/directives.module';
 import { PipesComponent } from './pipes/pipes.component';
+import { CustomPipeComponent } from './custom-pipe/custom-pipe.component';
+import { PipesModule } from '../pipes/pipes.module';
 
 @NgModule({
   imports: [
     CommonModule,
     ExemplosRoutingModule,
     ComponentsModule,
-    DirectivesModule
+    DirectivesModule,
+    PipesModule
   ],
-  declarations: [ComponentsComponent, DirectivesComponent, PipesComponent],
+  declarations: [ComponentsComponent, DirectivesComponent, PipesComponent, CustomPipeComponent],
   exports: [ExemplosRoutingModule],
 })
 export class ExemplosModule { }

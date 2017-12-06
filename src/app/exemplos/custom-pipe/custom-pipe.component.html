@@ -1,0 +1,22 @@
+<h1>Pipes</h1>
+<hr>
+<div class="container-fluid">
+  <h2>Exemplos - custom pipe</h2>
+  <table class="table">
+    <thead>
+      <tr>
+        <th>pipe</th>
+        <th>sem formatação</th>
+        <th>formatado</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td>nl2br</td>
+        <td>{{texto}}</td>
+        <td [innerHtml]="texto | nl2br"></td>
+      </tr>
+    </tbody>
+  </table>
+  <hr />
+</div>
