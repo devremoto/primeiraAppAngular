@@ -3,6 +3,7 @@ import { CommonModule } from '@angular/common';
 import { ExemploInputComponent } from './exemplo-input/exemplo-input.component'
 import { ExemploOutputComponent } from './exemplo-output/exemplo-output.component'
 import { FormsModule } from '@angular/forms';
+import { ExemploBindingsComponent } from './exemplo-bindings/exemplo-bindings.component';
 
 @NgModule({
   imports: [
@@ -11,11 +12,13 @@ import { FormsModule } from '@angular/forms';
   ],
   declarations: [
     ExemploInputComponent,
-    ExemploOutputComponent
+    ExemploOutputComponent,
+    ExemploBindingsComponent
   ],
   exports: [
     ExemploInputComponent,
-    ExemploOutputComponent
+    ExemploOutputComponent,
+    ExemploBindingsComponent
   ]
 })
 export class ComponentsModule { }

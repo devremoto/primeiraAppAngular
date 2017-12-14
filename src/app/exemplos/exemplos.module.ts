@@ -9,6 +9,7 @@ import { DirectivesModule } from '../directives/directives.module';
 import { PipesComponent } from './pipes/pipes.component';
 import { CustomPipeComponent } from './custom-pipe/custom-pipe.component';
 import { PipesModule } from '../pipes/pipes.module';
+import { BindingsComponent } from './bindings/bindings.component';
 
 @NgModule({
   imports: [
@@ -18,7 +19,7 @@ import { PipesModule } from '../pipes/pipes.module';
     DirectivesModule,
     PipesModule
   ],
-  declarations: [ComponentsComponent, DirectivesComponent, PipesComponent, CustomPipeComponent],
+  declarations: [ComponentsComponent, DirectivesComponent, PipesComponent, CustomPipeComponent, BindingsComponent],
   exports: [ExemplosRoutingModule],
 })
 export class ExemplosModule { }
